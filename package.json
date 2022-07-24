@@ -7,7 +7,6 @@
     "ImOhashi <leonardoohashi.mkt@gmail.com>",
     "Bet4Arrio <emanuelsa-rv@hotmail.com>"
   ],
-  "description": "Monitoring game servers and computer stats.\n Report alerts of  CPU, RAM, disk and others  uses ",
   "scripts": {
     "dev": "ts-node src/index.ts"
   },
