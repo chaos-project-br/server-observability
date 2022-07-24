@@ -7,11 +7,15 @@
     "ImOhashi <leonardoohashi.mkt@gmail.com>",
     "Bet4Arrio <emanuelsa-rv@hotmail.com>"
   ],
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/commander": "^2.12.2",
     "@types/dotenv": "^8.2.0",
     "@types/jest": "^28.1.1",
+    "@types/kafkajs": "^1.9.0",
     "@types/node": "^17.0.42",
     "@types/systeminformation": "^3.54.1",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
@@ -30,6 +34,7 @@
     "commander": "^7.2.0",
     "cyber-logger": "^1.0.1",
     "dotenv": "^16.0.1",
+    "kafkajs": "^2.1.0",
     "systeminformation": "^5.11.20"
   }
 }
